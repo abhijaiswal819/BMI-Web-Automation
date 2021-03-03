@@ -1,0 +1,56 @@
+{
+  "name": "BMI_Web Automation",
+  "description": "This project reads the data (Height and weight) from excel, calculates the BMI and stores the BMI result back to excel.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "FirebaseConnector": "[1.1.0]",
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.PDF.Activities": "[3.3.0]",
+    "UiPath.System.Activities": "[20.10.3]",
+    "UiPath.UIAutomation.Activities": "[20.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.4.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "844e445a-4539-4856-a178-8ce0e749b9b2",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
